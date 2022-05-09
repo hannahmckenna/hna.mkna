@@ -1,0 +1,115 @@
+@font-face {
+    font-family: not;
+    src: url(../NotCourierSans.otf);
+}
+
+@font-face {
+    font-family: honey;
+    src: url(../HoneyDemo-Light.otf);
+}
+
+
+body{
+    font-family: not;
+    background-image: url(../images/Cynotype\ 5.png);
+    background-repeat: round;
+    background-color: white;
+    background-blend-mode: multiply; 
+}
+
+
+P {
+    border: .1vw solid yellowgreen;
+    font-size: 1.5vw;
+    padding-left: 1%;
+
+}
+
+.link-entropy {
+    color: honeydew;
+    font-size: 2vw;
+    text-decoration: none;
+    font-family: honey;
+    font-weight: bolder;
+}
+
+.link-openwide {
+    color: whitesmoke;
+    font-size: 2vw;
+    text-decoration: none;
+    font-family: honey;
+    font-weight: bolder;
+}
+
+.link-photography {
+    color: whitesmoke;
+    font-size: 2vw;
+    text-decoration: none;
+    font-family: honey;
+    font-weight: bolder;
+}
+
+.link-home {
+    color: whitesmoke;
+    font-size: 2vw;
+    text-decoration: none;
+    font-family: honey;
+    font-weight: bolder;
+}
+
+a {
+    text-decoration: none;
+    color: whitesmoke;
+    font-family: honey;
+    font-weight: bolder;
+}
+
+
+@media screen and (max-width: 800px) {
+    P {
+        border: 2px solid yellowgreen;
+        font-size: 4vw;
+        padding-left: 2%;
+    }
+    
+    .link-entropy {
+        color: honeydew;
+        font-size: 5vw;
+        text-decoration: none;
+        font-family: honey;
+        font-weight: bolder;
+    }
+
+    .link-openwide {
+        color: whitesmoke;
+        font-size: 5vw;
+        text-decoration: none;
+        font-family: honey;
+        font-weight: bolder;
+    }
+
+    .link-photography {
+        color: whitesmoke;
+        font-size: 5vw;
+        text-decoration: none;
+        font-family: honey;
+        font-weight: bolder;
+       }
+
+       .link-home {
+        color: whitesmoke;
+        font-size: 5vw;
+        text-decoration: none;
+        font-family: honey;
+        font-weight: bolder;
+       }
+
+       body{
+        font-family: not;
+        background-image: url(../images/Cynotype\ 5-mobile.png);
+        background-color: white;
+        background-blend-mode: multiply;
+    }
+
+  }
+

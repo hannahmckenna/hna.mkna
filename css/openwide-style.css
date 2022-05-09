@@ -1,0 +1,127 @@
+
+@font-face {
+    font-family: not;
+    src: url(../NotCourierSans.otf);
+}
+
+@font-face {
+    font-family: honey;
+    src: url(../HoneyDemo-Light.otf);
+}
+
+body {
+    background-color: dimgray;
+    color: black;
+}
+
+.button {
+    border-style: solid;
+    border-color:yellowgreen;
+    width:2%;
+    z-index: 100;
+    margin-left: 2%;
+    margin-top: 2%;
+    padding: .5%;
+}
+
+.home {
+    font-family: honey;
+    color: yellowgreen;
+    font-size: 3vw;
+    text-decoration: none;
+    display: block;
+}
+
+
+
+.sticky {
+    color: yellowgreen;
+    padding: 2% 0% 0.2% 0%;
+    width: 100%;
+    text-align: center;
+    margin: 0% 0% 5% 0%;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    font-size: 5vw;
+    font-family: honey;
+    font-weight: lighter; 
+}
+
+
+img {
+    height: auto;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+
+
+.info {
+    margin-top: 5%;
+    padding-bottom: 5%;
+    padding-top: 2%;
+    padding-left: 5%;
+}
+
+
+
+p {
+    padding-left: 10px;
+    color: honeydew;
+    font-size: 1vw;
+    font-family: not;
+}
+
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    padding-bottom: 5%;
+    
+}
+
+
+iframe {
+    border: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    width: 78vw;
+    height: 40vw;
+}
+
+@media screen and (max-width: 800px) {
+    .button {
+        border: .5vw solid yellowgreen;
+        width:4%;
+        margin-top: 5%;
+    }
+    .home {
+        font-family: honey;
+        color: yellowgreen;
+        font-size: 5vw;
+        text-decoration: none;
+        text-align: center;
+       
+    }
+
+    .info {
+        margin-top: 5%;
+        padding-bottom: 5%;
+        padding-top: 2%;
+        padding-left: 5%;
+        
+    }
+
+    p {
+        padding-left: 10px;
+        color: honeydew;
+        font-size: 2vw;
+        font-family: not;
+    }
+  }
+
+

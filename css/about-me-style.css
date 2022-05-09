@@ -1,0 +1,181 @@
+@font-face {
+    font-family: not;
+    src: url(../NotCourierSans.otf);
+}
+
+@font-face {
+    font-family: honey;
+    src: url(../HoneyDemo-Light.otf);
+}
+
+body {
+    background-image: url(../images/icon-2.png) ;
+    background-color: dimgray;
+    background-blend-mode: lighten; 
+    background-position: 50%;
+}
+
+
+.button {
+    border-style: solid;
+    border-color:yellowgreen;
+    width:2%;
+    z-index: 100;
+    margin-left: 2%;
+    margin-top: 2%;
+    padding: .5%;
+
+
+}
+
+.home {
+    font-family: honey;
+    color: yellowgreen;
+    font-size: 3vw;
+    text-decoration: none;
+    display: block;
+   
+}
+
+.header {
+    width: 100%;
+    position: fixed;
+    margin-top: 0%;
+    text-align: center;
+    z-index: 50;
+   
+}
+
+
+
+h1{
+    color: yellowgreen;
+    font-size: 6vw;
+    font-family: honey;
+    font-weight: lighter; 
+    margin: 0% auto 0% auto;
+    padding: 0% 0% 0% 0%;
+}
+
+.lrg-img {
+    align-content: center;
+    width: 80%;
+    margin-left: 30%;
+    margin-bottom: 13%;
+    margin-top: 10%;
+
+}
+
+p {
+    font-family: not;
+    font-size: 1vw;
+    width: 90%;
+    padding-left: 2%;
+}
+
+.body-text {
+ margin: 15% 5% 10% 0%;
+ color: honeydew;
+}
+
+.real-me{
+    width: 35%;
+    align-content: center;
+    padding-left: 60.5%;
+    padding-top: 5%;
+    opacity: 80%;
+}
+
+
+.thats-me {
+    color: yellowgreen;
+    text-align: right;
+    font-size: 1vw;
+    padding-bottom: 4%;
+    padding-top: 1%;
+}
+
+.contact {
+    text-align: center;
+    font-size: 1vw;
+    font-family: not;
+    color: honeydew;
+    border: solid yellowgreen .1vw;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.insta {
+    text-decoration: none;
+    color: honeydew;
+}
+
+@media screen and (max-width: 800px) {
+
+    body {
+        background-image: url(../images/icon-2.png) ;
+        background-color: dimgray;
+        background-blend-mode: lighten; 
+        background-position: 30%;
+    }
+
+    .body-text {
+        margin: 15% 5% 10% 0%;
+        color: honeydew;
+       
+       }
+
+       p {
+        font-family: not;
+        font-size: 3vw;
+        width: 90%;
+        padding-left: 2%;
+    }
+
+    .real-me{
+        width: 50%;
+        align-content: center;
+        padding-left: 45%;
+        padding-top: 5%;
+        opacity: 80%;
+    }
+
+    .thats-me {
+        color: yellowgreen;
+        text-align: right;
+        font-size: 3vw;
+        padding-bottom: 4%;
+        padding-top: 1%;
+    }
+
+    .button {
+        border: .5vw solid yellowgreen;
+        width:4%;
+        margin-top: 5%;
+    }
+    .home {
+        font-family: honey;
+        color: yellowgreen;
+        font-size: 5vw;
+        text-decoration: none;
+        text-align: center;
+    }
+
+    .contact {
+        text-align: center;
+        font-size: 1vw;
+        font-family: not;
+        color: honeydew;
+        border: solid yellowgreen .3vw;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+    
+    .insta {
+        text-decoration: none;
+        color: honeydew;
+    }
+    
+  }
+
+

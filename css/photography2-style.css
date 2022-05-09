@@ -1,0 +1,568 @@
+
+@font-face {
+    font-family: honey;
+    src: url(../HoneyDemo-Light.otf);
+}
+
+@font-face {
+    font-family: not;
+    src: url(../NotCourierSans.otf);
+}
+
+img {
+    width: 40%;
+}
+
+
+body {
+    background-color: black;
+}
+
+.button {
+    border-style: solid;
+    border-color:yellowgreen;
+    width:2%;
+    z-index: 100;
+    margin-left: 2%;
+    margin-top: 2%;
+    padding: .5%;
+}
+
+.home {
+    font-family: honey;
+    color: yellowgreen;
+    font-size: 3vw;
+    text-decoration: none;
+    display: block;
+} 
+
+
+.hey {
+    font-size: 1vw;
+    font-family: not;
+    color: yellowgreen;
+    margin-left: 38%;
+    
+}
+
+.hey2 {
+    font-size: .5vw;
+    font-family: not;
+    color: yellowgreen;
+    margin-top: 5%;
+    margin-left: 38%;
+
+}
+
+
+.head {
+    font-family: honey;
+    font-weight: lighter;
+    font-size: 3.8vw;
+    color:yellowgreen;
+    margin-left: 27%;
+    
+}
+
+.text {
+    margin-top: -18%;
+}
+
+
+
+
+.center {
+  align-content: center;
+  margin: 5% 10% 10% 38%;
+}
+
+
+.pic1 {
+    z-index: 200;
+}
+
+.pic1:hover {
+
+    z-index: 210;
+    cursor: move;
+}
+
+.pic2 {
+    z-index: 190;
+}
+
+.pic2:hover {
+    z-index: 210;
+    cursor: move;
+}
+
+.pic3 {
+    z-index: 180;
+}
+
+.pic3:hover {
+    z-index: 210;
+    cursor: move;
+}
+
+.pic4 {
+    z-index: 170;
+}
+
+.pic4:hover {
+    z-index: 210;
+    cursor: move;
+}
+
+.pic5 {
+    z-index: 160;
+}
+
+.pic5:hover {
+    cursor: move;
+    z-index: 210;
+}
+
+.pic6 {
+    z-index: 150;
+}
+
+.pic6:hover {
+    cursor: move;
+    z-index: 210;
+}
+
+.pic7 {
+    z-index: 140;
+}
+
+.pic7:hover {
+    cursor: move;
+    z-index: 210;
+}
+
+.pic8 {
+    z-index: 130;
+}
+
+.pic8:hover {
+    cursor: move;
+    z-index: 210;
+}
+
+.pic9 {
+    z-index: 120;
+}
+
+.pic9:hover {
+    cursor: move;
+    z-index: 210;
+}
+
+.pic10 {
+    z-index: 110;
+}
+
+.pic10:hover {
+    cursor: move;
+    z-index: 210;
+}
+
+.pic11 {
+    z-index: 100;
+}
+
+.pic11:hover {
+    cursor: move;
+    z-index: 210;
+}
+
+.pic12 {
+    z-index: 90;
+}
+
+.pic12:hover {
+    cursor: move;
+    z-index: 210;
+}
+
+.pic13 {
+    z-index: 80;
+}
+
+.pic13:hover {
+    cursor: move;
+    z-index: 210;
+}
+
+.pic14 {
+    z-index: 70;
+}
+
+.pic14:hover {
+    cursor: move;
+    z-index: 210;
+}
+
+.pic15 {
+    z-index: 60;
+}
+
+.pic15:hover {
+    cursor: move;
+    z-index: 210;
+}
+
+.pic16 {
+    z-index: 50;
+}
+
+.pic16:hover {
+    cursor: move;
+    z-index: 210;
+}
+
+.pic17 {
+    z-index: 40;
+}
+
+.pic17:hover {
+    cursor: move;
+    z-index: 210;
+}
+
+.pic18 {
+    z-index: 30;
+}
+
+.pic18:hover {
+    cursor: move;
+    z-index: 210;
+}
+
+.pic19 {
+    z-index: 20;
+}
+
+.pic19:hover {
+    cursor: move;
+    z-index: 210;
+}
+
+.pic20 {
+    z-index: 10;
+}
+
+.pic20:hover {
+    cursor: move;
+    z-index: 210;
+}
+
+
+
+#mydiv {
+    position: absolute;
+    align-items: center;
+  }
+ 
+  #mydiv-2 {
+    position: absolute;
+    
+    align-items: center;
+  }
+
+  #mydiv-3 {
+    position: absolute;
+    
+    align-items: center;
+  }
+  #mydiv-4 {
+    position: absolute;
+    
+    align-items: center;
+  }
+
+  #mydiv-5 {
+    position: absolute;
+  
+    align-items: center;
+  }
+
+  #mydiv-6 {
+    position: absolute;
+    
+    align-items: center;
+  }
+
+
+  #mydiv-7 {
+    position: absolute;
+ 
+    align-items: center;
+  }
+
+
+  #mydiv-8 {
+    position: absolute;
+  
+    align-items: center;
+  }
+
+
+  #mydiv-9 {
+    position: absolute;
+    
+    align-items: center;
+  }
+
+
+  #mydiv-10 {
+    position: absolute;
+    
+    align-items: center;
+  }
+
+  #mydiv-11 {
+    position: absolute;
+    
+    align-items: center;
+  }
+
+  #mydiv-12 {
+    position: absolute;
+    
+    align-items: center;
+  }
+
+
+  #mydiv-13 {
+    position: absolute;
+    
+    align-items: center;
+  }
+
+  #mydiv-14 {
+    position: absolute;
+    
+    align-items: center;
+  }
+
+
+  #mydiv-15 {
+    position: absolute;
+    z-index: 9;
+    align-items: center;
+  }
+
+
+  #mydiv-16 {
+    position: absolute;
+    
+    align-items: center;
+  }
+
+  #mydiv-17 {
+    position: absolute;
+    
+    align-items: center;
+  }
+
+
+  #mydiv-18 {
+    position: absolute;
+   
+    align-items: center;
+  }
+
+
+  #mydiv-19 {
+    position: absolute;
+    
+    align-items: center;
+  }
+
+
+  #mydiv-20 {
+    position: absolute;
+    
+    align-items: center;
+  }
+
+
+ 
+
+
+  
+
+
+      @media screen and (max-width: 800px) {
+               
+        .button {
+          border: .5vw solid yellowgreen;
+          width:4%;
+          margin-top: 5%;
+      }
+      .home {
+          font-family: honey;
+          color: yellowgreen;
+          font-size: 5vw;
+          text-decoration: none;
+          text-align: center;
+      }
+  
+
+        .hey {
+            display: none;
+              }
+              
+              .hey2 {
+                 display: none;
+              
+              }
+        
+        
+        .head {
+            display: none;
+            
+        }
+        .sticky {
+            color: yellowgreen;
+            padding: 3% 0% 15% 0%;
+            margin: 0% 0% 5% 0%;
+            position: -webkit-sticky;
+            position: sticky;
+            top: 0;
+            font-size: 5vw;
+            font-family: honey;
+            font-weight: lighter; 
+            width: 100%;
+            text-align: center;
+        }
+
+
+        .images {
+            width: 100%;
+        }
+
+
+        /* js info images  */
+
+
+        .pic20 {
+            display: none;
+          }
+  
+          .pic19 {
+              display: none;
+            }
+  
+            .pic18 {
+              display: none;
+            }
+  
+            .pic17 {
+              display: none;
+            }
+  
+            .pic16 {
+              display: none;
+            }
+  
+            .pic15 {
+              display: none;
+            }
+  
+            .pic14 {
+              display: none;
+            }
+  
+            .pic13 {
+              display: none;
+            }
+  
+            .pic12 {
+              display: none;
+            }
+  
+            .pic11 {
+              display: none;
+            }
+  
+            .pic14 {
+              display: none;
+            }
+  
+            .pic10 {
+              display: none;
+            }
+  
+            .pic9 {
+              display: none;
+            }
+  
+            .pic8 {
+              display: none;
+            }
+  
+            .pic7 {
+              display: none;
+            }
+  
+            .pic6 {
+              display: none;
+            }
+  
+            .pic5 {
+              display: none;
+            }
+  
+            .pic4 {
+              display: none;
+            }
+  
+            .pic3 {
+              display: none;
+            }
+  
+            .pic2 {
+              display: none;
+            }
+  
+            .pic1 {
+              display: none;
+            }
+
+      }
+
+
+/* Large devices (desktops, 992px and up) */
+@media screen and (min-width: 800px) {
+ .sticky {
+     display: none;
+ }
+
+  .grid {
+      display: none;
+ }
+
+ .images {
+    display: none;
+ }
+
+}
+/* Extra large devices (large desktops, 1200px and up) */
+@media screen and (min-width: 1200px) {
+
+  .sticky {
+    display: none;
+}
+
+ .grid {
+     display: none;
+}
+
+.images {
+   display: none;
+}
+
+}
